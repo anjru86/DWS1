@@ -1,0 +1,54 @@
+/* I pick the colors for this assignment from the adobe kuler website */
+
+body{
+	background-color:#FE3f44;
+	color: white;
+	padding:30px
+	}
+	
+h1,h2{
+	background-color: rgba(34,204,37, 0.5);
+	background-color: hsla(0,50%,25%,0.45);
+	color: pink;
+	padding:inherit;
+	font:bold normal normal normal/2 arial;
+		}
+	h1{text-shadow: 2px 2px 3px #333333;
+		font-size:300%;
+		}
+	h2{
+		font:bold normal normal normal/2 arial;
+		letter-spacing:0.3em;
+		text-transform:uppercase;
+		font-size: 125%;
+		}
+p{ 
+	font-family: 'Dosis', sans-serif; color: #000;
+	padding:10px;
+	text-align:left;
+	}
+em, b{
+	color: #654;
+	}
+.credits{
+		font-style:italic;
+		text-align:right;
+		}
+ul{
+	color: #000;
+	opacity: 0.90;
+	font-style:italic;
+	}
+a:link{
+		color:darkcyan;
+		text-decoration: none;
+		}
+a:visited{
+		color: green;
+		}
+a:hover{
+		text-decoration: underline;
+	}
+a:active{
+		color: cyan;
+		}
