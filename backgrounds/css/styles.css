@@ -1,19 +1,18 @@
 body{
-	/*background-color:#FE3f44;*/
+	background-image: url("../images/canvas.gif");
+	background-color:#FE3f44;
 	color: white;
-	padding:30px;
+	padding:3%;
 	height: auto;
 	}
 	
 #page{
-	background-color: rgba(255,255,255,0.35); 
-	background-image: url("/images/canvas.gif");
-	background-repeat:repeat-y;
-	width:960px;
+	background-color: rgba(255,255,255,0.65); 
+	width:90%;
 	border: 4px double  #000;
 	border-radius:20px;
-	padding:20px;
-	margin: 10px auto;
+	padding:1%;
+	margin: 1% auto;
 	
 		}
 	
@@ -30,6 +29,7 @@ h1,h2{
 		
 h1{text-shadow: 2px 2px 3px #333333;
 		font-size:500%;
+		background: linear-gradient(180deg,  cyan 0%,red 100%);
 		}
 		
 h2{
@@ -41,9 +41,8 @@ h2{
 		
 p{ 
 	font-family: 'Dosis', sans-serif;color: #000;
-	padding:10px;
-	width:inherit;
-	margin: 20px auto;
+	padding:0%;
+	text-align:left;
 	}
 em, b{
 	color: #654;
@@ -58,12 +57,12 @@ ol{
 	color: #5e22cc;
 	opacity: 0.90;
 	font-style:italic;
-	width:700px;
+	width:69%;
 	}
 
 #navigation{
 	font-size: 120%;
-	width:625px;
+	width:65%;
 	border-top:2px solid #000;
 	border-bottom: 1px solid  #000;
 	padding:15px;
@@ -73,7 +72,6 @@ ol{
 	
 #results, #tasting{
 	color: white;
-	margin: 15px auto;
 	}
 
 .credits{
@@ -97,28 +95,30 @@ a:active{
 
 #column1of4{
 	float: left;
-	width:860px;
-	margin:20px;
-	padding:10px;
+	width:89%;
+	margin:2%;
+	padding:1%;
 	clear:both;
+	
 	}
 #column2of4{
 	float:left;
-	width:320px;
-	margin:20px;
+	width:33%;
+	margin:2%;
 	clear:left;
 	}
 
 #column3of4{
 	float:left;
-	width:540px;
-	margin:20px;
+	width:56%;
+	margin:2%;
 	clear:right;
 	}
 
 #column4of4{
-	width:100%;
-	margin:10px;
+	width:89%;
+	margin:2%;
+	padding:1%;
 	clear:both;
 	
 	}
